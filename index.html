@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>历史收益看板</title>
+  <style>
+    :root { --teal:#0f766e; --ink:#102a2a; --muted:#657475; --line:#dce7e6; --bg:#f3f7f6; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif; background:var(--bg); color:var(--ink); }
+    .hero { background:linear-gradient(135deg,#073b3a,#0f766e,#236b8e); color:white; padding:30px 24px 22px; }
+    .wrap { max-width:1180px; margin:0 auto; }
+    .top { display:flex; align-items:center; gap:14px; }
+    .logo { width:42px; height:42px; border-radius:8px; display:grid; place-items:center; background:#ffffff24; border:1px solid #ffffff2e; }
+    h1 { font-size:26px; margin:0 0 4px; }
+    .sub { color:#ffffffc7; font-size:13px; }
+    main { max-width:1180px; margin:0 auto; padding:22px 24px 40px; }
+    .grid { display:grid; grid-template-columns:repeat(5,1fr); gap:12px; margin-bottom:18px; }
+    .panel,.card { background:white; border:1px solid var(--line); border-radius:8px; box-shadow:0 8px 16px #00000012; }
+    .card { padding:16px; min-height:112px; }
+    .label { color:#5e6f70; font-size:13px; font-weight:700; }
+    .value { margin-top:26px; font-size:28px; font-weight:800; white-space:nowrap; }
+    .panel { padding:16px; margin-bottom:18px; }
+    h2 { margin:0 0 14px; font-size:16px; }
+    .bars { height:230px; display:flex; align-items:end; gap:6px; }
+    .barbox { flex:1; min-width:28px; display:flex; flex-direction:column; align-items:center; justify-content:end; gap:7px; }
+    .bar { width:100%; min-height:3px; border-radius:8px 8px 4px 4px; background:linear-gradient(180deg,#0f766e,#53b6a6); }
+    .day { font-size:11px; color:var(--muted); }
+    .split { display:grid; grid-template-columns:4fr 6fr; gap:18px; }
+    .row { display:grid; grid-template-columns:56px 1fr 92px; gap:10px; align-items:center; padding:9px 0; border-top:1px solid #edf2f1; }
+    .pill { display:inline-flex; justify-content:center; border-radius:999px; padding:4px 8px; background:#eaf8f4; color:#246b60; font-size:12px; font-weight:800; }
+    .tablewrap { overflow:auto; padding-bottom:8px; }
+    table { border-collapse:separate; border-spacing:0 8px; min-width:1500px; width:100%; }
+    th,td { background:white; border:1px solid #e1e7e4; border-left:0; border-right:0; padding:8px; height:42px; text-align:center; font-size:12px; }
+    th:first-child,td:first-child { border-left:1px solid #e1e7e4; border-radius:8px 0 0 8px; text-align:left; min-width:220px; }
+    th:last-child,td:last-child { border-right:1px solid #e1e7e4; border-radius:0 8px 8px 0; }
+    th { background:#e8efec; font-weight:800; }
+    .money { font-weight:800; }
+    .small { display:block; margin-top:2px; color:#5d716d; font-size:10px; white-space:nowrap; }
+    .gate { min-height:100vh; display:grid; place-items:center; background:linear-gradient(135deg,#073b3a,#0f766e,#236b8e); }
+    .gatebox { width:360px; max-width:calc(100vw - 48px); background:white; padding:20px; border-radius:8px; box-shadow:0 14px 24px #00000026; }
+    input,button { width:100%; height:42px; border-radius:8px; font:inherit; }
+    input { border:1px solid #cfdcda; padding:0 12px; margin:16px 0 12px; }
+    button { border:0; background:var(--teal); color:white; font-weight:800; cursor:pointer; }
+    .err { color:#b42318; min-height:20px; font-size:13px; }
+    @media (max-width:900px){ .grid{grid-template-columns:repeat(2,1fr)} .split{grid-template-columns:1fr} }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    const PASSWORD = 'baby0301';
+    const $ = (s) => document.querySelector(s);
+    const money = (beans) => '$' + ((Number(beans || 0)) / 1000).toFixed(2);
+    const compact = (beans) => { const n = Number(beans || 0) / 1000; return n === 0 ? '0' : (Math.abs(n) >= 10 ? n.toFixed(0) : n.toFixed(1)); };
+    const dayVal = (v) => typeof v === 'object' && v ? v : { totalBeans:Number(v || 0), privateCallBeans:0, matchCallBeans:0 };
+    function gate() {
+      app.innerHTML = '<section class="gate"><div class="gatebox"><h1>历史收益看板</h1><input id="pw" type="password" placeholder="访问密码" autofocus><div class="err" id="err"></div><button id="go">进入看板</button></div></section>';
+      $('#go').onclick = () => $('#pw').value.trim() === PASSWORD ? load() : $('#err').textContent = '密码不正确';
+      $('#pw').onkeydown = (e) => { if (e.key === 'Enter') $('#go').click(); };
+    }
+    async function load() {
+      app.innerHTML = '<main>读取中...</main>';
+      const data = await fetch('data/income.json?t=' + Date.now()).then(r => r.json());
+      render(data);
+    }
+    function render(data) {
+      const accounts = [...(data.accounts || [])].sort((a,b) => (b.totalBeans||0) - (a.totalBeans||0));
+      const days = [...new Set([...(data.dailyTotals || []).map(d => d.date), ...accounts.flatMap(a => Object.keys(a.days || {}))])].sort().reverse();
+      const total = accounts.reduce((s,a) => s + Number(a.totalBeans || 0), 0);
+      const bills = accounts.reduce((s,a) => s + Number(a.billCount || 0), 0);
+      const video = accounts.reduce((s,a) => s + Number(a.privateCallBeans || 0) + Number(a.matchCallBeans || 0), 0);
+      app.innerHTML = `<header class="hero"><div class="wrap top"><div class="logo">↗</div><div><h1>${data.title || '历史收益看板'}</h1><div class="sub">${data.monthKey || ''} / 更新 ${String(data.generatedAtIso || '').slice(0,16).replace('T',' ')}</div></div></div></header>
+      <main><section class="grid">${card('总收益', money(total))}${card('收益笔数', bills.toLocaleString())}${card('视频收益', money(video))}${card('账号数', accounts.length)}${card('在线', accounts.filter(a=>a.online).length)}</section>
+      <section class="panel"><h2>每日走势</h2><div class="bars">${bars(data.dailyTotals || [])}</div></section>
+      <div class="split"><section class="panel"><h2>地区合计</h2>${(data.countryTotals || []).map(c => `<div class="row"><span class="pill">${c.countryIso}</span><b>${money(c.totalBeans)}</b><span>${c.billCount || 0} 笔</span></div>`).join('')}</section>
+      <section class="panel"><h2>主播排行</h2>${accounts.slice(0,8).map((a,i)=>`<div class="row"><span class="pill">#${i+1}</span><b>${a.displayName}</b><span class="money">${money(a.totalBeans)}</span></div>`).join('')}</section></div>
+      <section class="panel"><h2>历史收益明细</h2><div class="tablewrap"><table><thead><tr><th>主播</th><th>地区</th><th>合计</th><th>点播</th><th>匹配</th><th>笔数</th>${days.map(d=>`<th>${Number(d.slice(8,10)) || d}</th>`).join('')}</tr></thead><tbody>${accounts.map(a => row(a, days)).join('')}</tbody></table></div></section></main>`;
+    }
+    function card(label, value) { return `<div class="card"><div class="label">${label}</div><div class="value">${value}</div></div>`; }
+    function bars(days) { const max = Math.max(1, ...days.map(d => Number(d.totalBeans || 0))); return days.map(d => `<div class="barbox" title="${d.date} ${money(d.totalBeans)}"><div class="bar" style="height:${Math.max(3, d.totalBeans / max * 190)}px"></div><div class="day">${Number(d.date.slice(8,10))}</div></div>`).join(''); }
+    function row(a, days) { return `<tr><td><b>${a.displayName}</b></td><td>${a.countryIso || '-'}</td><td class="money">${money(a.totalBeans)}</td><td>${money(a.privateCallBeans)}</td><td>${money(a.matchCallBeans)}</td><td>${a.billCount || 0}</td>${days.map(d => { const v = dayVal((a.days || {})[d]); return `<td title="${d} 总 ${money(v.totalBeans)} 点播 ${money(v.privateCallBeans)} 匹配 ${money(v.matchCallBeans)}"><span class="money">${v.totalBeans ? money(v.totalBeans) : '-'}</span>${v.totalBeans ? `<span class="small">点${compact(v.privateCallBeans)} / 匹${compact(v.matchCallBeans)}</span>` : ''}</td>`; }).join('')}</tr>`; }
+    gate();
+  </script>
+</body>
+</html>
