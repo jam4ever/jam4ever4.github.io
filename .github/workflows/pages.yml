@@ -8,6 +8,7 @@ on:
     paths:
       - ".github/workflows/pages.yml"
       - "lib/web_dashboard/**"
+      - "data/**"
       - "web/**"
       - "pubspec.yaml"
       - "pubspec.lock"
@@ -33,6 +34,7 @@ jobs:
           cache: true
       - run: flutter pub get
       - run: flutter build web --release --target lib/web_dashboard/main.dart --base-href "/" --pwa-strategy=none
+      - run: mkdir -p build/web/data && cp data/income.json build/web/data/income.json
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
