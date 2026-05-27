@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "title": "历史收益看板",
   "monthKey": "2026-05",
-  "generatedAtIso": "2026-05-27T11:38:46.434779",
+  "generatedAtIso": "2026-05-27T14:33:25.044695",
   "summary": {
     "totalBeans": 5212623.0,
     "privateCallBeans": 145817.0,
@@ -15,7 +15,7 @@
     "unpaidCents": 60666.0,
     "withdrawnCents": 310747.0,
     "accountCount": 80,
-    "plannedBeans": 2644580
+    "plannedBeans": 3278830
   },
   "dailyTotals": [
     {
@@ -303,6 +303,17 @@
       "otherBeans": 16600.0,
       "billCount": 17965,
       "plannedBeans": 700000
+    },
+    {
+      "date": "2026-05-27",
+      "totalBeans": 0.0,
+      "privateCallBeans": 0.0,
+      "matchCallBeans": 0.0,
+      "giftBeans": 0.0,
+      "messageBeans": 0.0,
+      "otherBeans": 0.0,
+      "billCount": 0,
+      "plannedBeans": 634250
     }
   ],
   "countryTotals": [
@@ -5008,6 +5019,1014 @@
         "matchMediaBackend": "localAgora",
         "duoplusImageId": "",
         "updatedAt": "2026-05-26T15:27:10.163+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1777389984828763",
+        "uid": "13533042",
+        "email": "lucasferreira1988br@outlook.com",
+        "nickname": "Desire 🍒🌾",
+        "countryIso": "BR",
+        "tier": "S",
+        "targetUsd": 18.0,
+        "targetBeans": 18000,
+        "dailyIncomeLimitOverride": 18000,
+        "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+        "ownerMachineLabel": "pengjizongdeMac-mini.local",
+        "matchMediaBackend": "cloudAdb",
+        "duoplusImageId": "xndMN",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1777393377613550",
+        "uid": "13533819",
+        "email": "rafaelcostaof@outlook.com",
+        "nickname": "Luna Morena 🌸",
+        "countryIso": "BR",
+        "tier": "A",
+        "targetUsd": 14.75,
+        "targetBeans": 14750,
+        "dailyIncomeLimitOverride": 14750,
+        "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+        "ownerMachineLabel": "GuanghedeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1777528854300906",
+        "uid": "13605343",
+        "email": "Maria2221969@outlook.com",
+        "nickname": "Nina Glow",
+        "countryIso": "BR",
+        "tier": "A",
+        "targetUsd": 16.0,
+        "targetBeans": 16000,
+        "dailyIncomeLimitOverride": 16000,
+        "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+        "ownerMachineLabel": "GuanghedeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "lyxrG",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1777558399105009",
+        "uid": "13612328",
+        "email": "hioppi2026@outlook.com",
+        "nickname": "Ruiva",
+        "countryIso": "BR",
+        "tier": "B",
+        "targetUsd": 10.5,
+        "targetBeans": 10500,
+        "dailyIncomeLimitOverride": 10500,
+        "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+        "ownerMachineLabel": "GuanghedeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "lyxrG",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1777566755384887",
+        "uid": "13610810",
+        "email": "jeony2026@outlook.com",
+        "nickname": "NinaC",
+        "countryIso": "BR",
+        "tier": "A",
+        "targetUsd": 10.75,
+        "targetBeans": 10750,
+        "dailyIncomeLimitOverride": 10750,
+        "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+        "ownerMachineLabel": "GuanghedeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "xndMN",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1777567392000707",
+        "uid": "13614661",
+        "email": "anacostafuy@outlook.com",
+        "nickname": "Anacosta",
+        "countryIso": "BR",
+        "tier": "A",
+        "targetUsd": 15.75,
+        "targetBeans": 15750,
+        "dailyIncomeLimitOverride": 15750,
+        "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+        "ownerMachineLabel": "GuanghedeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1778066993394012",
+        "uid": "13877793",
+        "email": "hlychovy@outlook.com",
+        "nickname": "Nina 🌺",
+        "countryIso": "BR",
+        "tier": "B",
+        "targetUsd": 13.75,
+        "targetBeans": 13750,
+        "dailyIncomeLimitOverride": 13750,
+        "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+        "ownerMachineLabel": "pengjizongdeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "TA6iM",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1778073686442654",
+        "uid": "13879704",
+        "email": "mixxMick2026@outlook.com",
+        "nickname": "Gabi Doce",
+        "countryIso": "BR",
+        "tier": "A",
+        "targetUsd": 16.5,
+        "targetBeans": 16500,
+        "dailyIncomeLimitOverride": 16500,
+        "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+        "ownerMachineLabel": "pengjizongdeMac-mini.local",
+        "matchMediaBackend": "cloudAdb",
+        "duoplusImageId": "ONuSl",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1778247244144312",
+        "uid": "13965130",
+        "email": "gabrielalmeida1944@outlook.com",
+        "nickname": "Rosa Tropical 🌺",
+        "countryIso": "CO",
+        "tier": "D",
+        "targetUsd": 9.75,
+        "targetBeans": 9750,
+        "dailyIncomeLimitOverride": 9750,
+        "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+        "ownerMachineLabel": "cicideMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1778250497447836",
+        "uid": "13611243",
+        "email": "gevzyoc0890f@outlook.com",
+        "nickname": "Flor da",
+        "countryIso": "BR",
+        "tier": "A",
+        "targetUsd": 14.0,
+        "targetBeans": 14000,
+        "dailyIncomeLimitOverride": 14000,
+        "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+        "ownerMachineLabel": "pengjizongdeMac-mini.local",
+        "matchMediaBackend": "cloudAdb",
+        "duoplusImageId": "c9z0n",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1778375243368036",
+        "uid": "14068922",
+        "email": "juliaferreira078@outlook.com",
+        "nickname": "Beauti",
+        "countryIso": "CO",
+        "tier": "A",
+        "targetUsd": 13.25,
+        "targetBeans": 13250,
+        "dailyIncomeLimitOverride": 13250,
+        "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+        "ownerMachineLabel": "pengjizongdeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "veMyh",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1778376341498574",
+        "uid": "14069533",
+        "email": "rafael1ima@outlook.com",
+        "nickname": "Judy",
+        "countryIso": "PH",
+        "tier": "B",
+        "targetUsd": 16.5,
+        "targetBeans": 16500,
+        "dailyIncomeLimitOverride": 16500,
+        "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+        "ownerMachineLabel": "pengjizongdeMac-mini.local",
+        "matchMediaBackend": "cloudAdb",
+        "duoplusImageId": "euuEC",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1778515350132826",
+        "uid": "14160034",
+        "email": "enzo2ocha@outlook.com",
+        "nickname": "Elvis Guerrero",
+        "countryIso": "VE",
+        "tier": "A",
+        "targetUsd": 13.5,
+        "targetBeans": 13500,
+        "dailyIncomeLimitOverride": 13500,
+        "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+        "ownerMachineLabel": "pengjizongdeMac-mini.local",
+        "matchMediaBackend": "cloudAdb",
+        "duoplusImageId": "A0CYK",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1778579419546605",
+        "uid": "14401450",
+        "email": "lucas76souza@outlook.com",
+        "nickname": "ABBY",
+        "countryIso": "VE",
+        "tier": "B",
+        "targetUsd": 16.5,
+        "targetBeans": 16500,
+        "dailyIncomeLimitOverride": 16500,
+        "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+        "ownerMachineLabel": "cicideMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1778597807460605",
+        "uid": "14411935",
+        "email": "pedro177santos@outlook.com",
+        "nickname": "Tammi",
+        "countryIso": "VE",
+        "tier": "A",
+        "targetUsd": 19.0,
+        "targetBeans": 19000,
+        "dailyIncomeLimitOverride": 19000,
+        "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+        "ownerMachineLabel": "cicideMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1778598383762884",
+        "uid": "14412273",
+        "email": "camilarodriguez8824@hotmail.com",
+        "nickname": "Rosal",
+        "countryIso": "BR",
+        "tier": "A",
+        "targetUsd": 17.0,
+        "targetBeans": 17000,
+        "dailyIncomeLimitOverride": 17000,
+        "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+        "ownerMachineLabel": "cicideMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1778598941040418",
+        "uid": "14412644",
+        "email": "isabellacruzzzz95@outlook.com",
+        "nickname": "Alexia rodriguez",
+        "countryIso": "BR",
+        "tier": "D",
+        "targetUsd": 2.5,
+        "targetBeans": 2500,
+        "dailyIncomeLimitOverride": 2500,
+        "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+        "ownerMachineLabel": "cicideMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1778599128645685",
+        "uid": "14412792",
+        "email": "valentinamorales2799@outlook.com",
+        "nickname": "Isabela Rico",
+        "countryIso": "VE",
+        "tier": "D",
+        "targetUsd": 2.0,
+        "targetBeans": 2000,
+        "dailyIncomeLimitOverride": 2000,
+        "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+        "ownerMachineLabel": "cicideMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1778599385441636",
+        "uid": "14412990",
+        "email": "gisphag6927b@outlook.com",
+        "nickname": "Aisha",
+        "countryIso": "VE",
+        "tier": "B",
+        "targetUsd": 12.75,
+        "targetBeans": 12750,
+        "dailyIncomeLimitOverride": 12750,
+        "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+        "ownerMachineLabel": "cicideMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1778599743692044",
+        "uid": "14413208",
+        "email": "isadora0nunes@outlook.com",
+        "nickname": "Leidy oerez",
+        "countryIso": "BR",
+        "tier": "A",
+        "targetUsd": 20.0,
+        "targetBeans": 20000,
+        "dailyIncomeLimitOverride": 20000,
+        "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+        "ownerMachineLabel": "cicideMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1778600016531982",
+        "uid": "14413396",
+        "email": "Alice111costa@outlook.com",
+        "nickname": "Hiraly",
+        "countryIso": "BR",
+        "tier": "B",
+        "targetUsd": 12.5,
+        "targetBeans": 12500,
+        "dailyIncomeLimitOverride": 12500,
+        "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+        "ownerMachineLabel": "GuanghedeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "euuEC",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1778601967798876",
+        "uid": "14414714",
+        "email": "qwxzmoj7116y@outlook.com",
+        "nickname": "MeL",
+        "countryIso": "BR",
+        "tier": "A",
+        "targetUsd": 17.5,
+        "targetBeans": 17500,
+        "dailyIncomeLimitOverride": 17500,
+        "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+        "ownerMachineLabel": "pengjizongdeMac-mini.local",
+        "matchMediaBackend": "cloudAdb",
+        "duoplusImageId": "73Jd0",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1778602732165195",
+        "uid": "14415249",
+        "email": "beatrizalves142@outlook.com",
+        "nickname": "Juna Maglinte",
+        "countryIso": "BR",
+        "tier": "A",
+        "targetUsd": 19.5,
+        "targetBeans": 19500,
+        "dailyIncomeLimitOverride": 19500,
+        "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+        "ownerMachineLabel": "cicideMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1778603358065870",
+        "uid": "14415741",
+        "email": "amandaferdes@outlook.com",
+        "nickname": "jissa",
+        "countryIso": "CO",
+        "tier": "A",
+        "targetUsd": 16.25,
+        "targetBeans": 16250,
+        "dailyIncomeLimitOverride": 16250,
+        "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+        "ownerMachineLabel": "cicideMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1778603662467163",
+        "uid": "14415969",
+        "email": "anaclarasouza111@outlook.com",
+        "nickname": "Erika",
+        "countryIso": "PH",
+        "tier": "D",
+        "targetUsd": 3.25,
+        "targetBeans": 3250,
+        "dailyIncomeLimitOverride": 3250,
+        "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+        "ownerMachineLabel": "cicideMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1778603882554338",
+        "uid": "14416130",
+        "email": "fernanda1ima1@outlook.com",
+        "nickname": "Camila Ugarte",
+        "countryIso": "BR",
+        "tier": "S",
+        "targetUsd": 18.5,
+        "targetBeans": 18500,
+        "dailyIncomeLimitOverride": 18500,
+        "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+        "ownerMachineLabel": "cicideMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1778604090402086",
+        "uid": "14416342",
+        "email": "patrciamendes1@outlook.com",
+        "nickname": "Fabulous",
+        "countryIso": "PH",
+        "tier": "B",
+        "targetUsd": 17.5,
+        "targetBeans": 17500,
+        "dailyIncomeLimitOverride": 17500,
+        "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+        "ownerMachineLabel": "cicideMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1778604430029272",
+        "uid": "14416590",
+        "email": "l1uizacarvalho@outlook.com",
+        "nickname": "Sandry Beleno",
+        "countryIso": "BR",
+        "tier": "B",
+        "targetUsd": 7.75,
+        "targetBeans": 7750,
+        "dailyIncomeLimitOverride": 7750,
+        "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+        "ownerMachineLabel": "cicideMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1778777016902994",
+        "uid": "14521905",
+        "email": "juliana1lima@outlook.com",
+        "nickname": "Catherine💅🏻",
+        "countryIso": "PH",
+        "tier": "D",
+        "targetUsd": 2.0,
+        "targetBeans": 2000,
+        "dailyIncomeLimitOverride": 2000,
+        "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+        "ownerMachineLabel": "GuanghedeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779113450326182",
+        "uid": "14747515",
+        "email": "gabrieladduarte09@outlook.com",
+        "nickname": "Anna",
+        "countryIso": "PH",
+        "tier": "D",
+        "targetUsd": 2.75,
+        "targetBeans": 2750,
+        "dailyIncomeLimitOverride": 2750,
+        "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+        "ownerMachineLabel": "GuanghedeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "c9z0n",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779115818122105",
+        "uid": "14748954",
+        "email": "jessica1lopes@outlook.com",
+        "nickname": "Sofia verenzuela",
+        "countryIso": "BR",
+        "tier": "B",
+        "targetUsd": 13.25,
+        "targetBeans": 13250,
+        "dailyIncomeLimitOverride": 13250,
+        "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+        "ownerMachineLabel": "pengjizongdeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "9HPff",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779118481080750",
+        "uid": "14750877",
+        "email": "jemmiry2026@outlook.com",
+        "nickname": "Kristin",
+        "countryIso": "BR",
+        "tier": "B",
+        "targetUsd": 14.25,
+        "targetBeans": 14250,
+        "dailyIncomeLimitOverride": 14250,
+        "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+        "ownerMachineLabel": "pengjizongdeMac-mini.local",
+        "matchMediaBackend": "cloudAdb",
+        "duoplusImageId": "9HPff",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779195481738745",
+        "uid": "14804028",
+        "email": "EourhAmufo184418@outlook.com",
+        "nickname": "Laura Zabala",
+        "countryIso": "BR",
+        "tier": "B",
+        "targetUsd": 15.0,
+        "targetBeans": 15000,
+        "dailyIncomeLimitOverride": 15000,
+        "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+        "ownerMachineLabel": "pengjizongdeMac-mini.local",
+        "matchMediaBackend": "cloudAdb",
+        "duoplusImageId": "lyxrG",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779195701411022",
+        "uid": "14804158",
+        "email": "HjsudCormm64744@outlook.com",
+        "nickname": "Isabela",
+        "countryIso": "CO",
+        "tier": "B",
+        "targetUsd": 13.5,
+        "targetBeans": 13500,
+        "dailyIncomeLimitOverride": 13500,
+        "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+        "ownerMachineLabel": "pengjizongdeMac-mini.local",
+        "matchMediaBackend": "cloudAdb",
+        "duoplusImageId": "dEXc9",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779197414080816",
+        "uid": "14805065",
+        "email": "nwahcwf5346n@outlook.com",
+        "nickname": "Camila🦩💖",
+        "countryIso": "BR",
+        "tier": "A",
+        "targetUsd": 15.25,
+        "targetBeans": 15250,
+        "dailyIncomeLimitOverride": 15250,
+        "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+        "ownerMachineLabel": "GuanghedeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779200661805605",
+        "uid": "14806888",
+        "email": "deborauieira@outlook.com",
+        "nickname": "la negra",
+        "countryIso": "CO",
+        "tier": "C",
+        "targetUsd": 6.5,
+        "targetBeans": 6500,
+        "dailyIncomeLimitOverride": 6500,
+        "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+        "ownerMachineLabel": "pengjizongdeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "TA6iM",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779200905105419",
+        "uid": "14807042",
+        "email": "pamela21nunes@outlook.com",
+        "nickname": "Jackeline",
+        "countryIso": "BR",
+        "tier": "B",
+        "targetUsd": 13.0,
+        "targetBeans": 13000,
+        "dailyIncomeLimitOverride": 13000,
+        "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+        "ownerMachineLabel": "pengjizongdeMac-mini.local",
+        "matchMediaBackend": "cloudAdb",
+        "duoplusImageId": "Sxsbo",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779284932739937",
+        "uid": "14852010",
+        "email": "RgbtvCmmuoi662949@outlook.com",
+        "nickname": "cheima cheima",
+        "countryIso": "BR",
+        "tier": "B",
+        "targetUsd": 13.5,
+        "targetBeans": 13500,
+        "dailyIncomeLimitOverride": 13500,
+        "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+        "ownerMachineLabel": "pengjizongdeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "ONuSl",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779285185253378",
+        "uid": "14852145",
+        "email": "LbjpofUjmkki144974@outlook.com",
+        "nickname": "Maricela",
+        "countryIso": "CO",
+        "tier": "C",
+        "targetUsd": 7.25,
+        "targetBeans": 7250,
+        "dailyIncomeLimitOverride": 7250,
+        "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+        "ownerMachineLabel": "pengjizongdeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "ONuSl",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779285914361289",
+        "uid": "14852458",
+        "email": "JgoikoWxrdx03714@outlook.com",
+        "nickname": "Alex🤎",
+        "countryIso": "BR",
+        "tier": "B",
+        "targetUsd": 7.5,
+        "targetBeans": 7500,
+        "dailyIncomeLimitOverride": 7500,
+        "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+        "ownerMachineLabel": "GuanghedeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "73Jd0",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779286680216115",
+        "uid": "14852775",
+        "email": "AhdatjYiqxlt098247@outlook.com",
+        "nickname": "yelixis fernandez",
+        "countryIso": "BR",
+        "tier": "B",
+        "targetUsd": 9.25,
+        "targetBeans": 9250,
+        "dailyIncomeLimitOverride": 9250,
+        "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+        "ownerMachineLabel": "GuanghedeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "73Jd0",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779286877346435",
+        "uid": "14852849",
+        "email": "EozhhQqsvo788669@outlook.com",
+        "nickname": "Yuamary Marquez",
+        "countryIso": "BR",
+        "tier": "A",
+        "targetUsd": 19.0,
+        "targetBeans": 19000,
+        "dailyIncomeLimitOverride": 19000,
+        "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+        "ownerMachineLabel": "pengjizongdeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "c9z0n",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779375849090653",
+        "uid": "14899258",
+        "email": "BdhcxxNgdho7221@outlook.com",
+        "nickname": "Jannatul megha Janna",
+        "countryIso": "BR",
+        "tier": "C",
+        "targetUsd": 6.75,
+        "targetBeans": 6750,
+        "dailyIncomeLimitOverride": 6750,
+        "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+        "ownerMachineLabel": "GuanghedeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779375969285486",
+        "uid": "14899307",
+        "email": "XzycahTypf8423@outlook.com",
+        "nickname": "QueennotKwen",
+        "countryIso": "BR",
+        "tier": "B",
+        "targetUsd": 6.25,
+        "targetBeans": 6250,
+        "dailyIncomeLimitOverride": 6250,
+        "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+        "ownerMachineLabel": "GuanghedeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779376087204933",
+        "uid": "14899398",
+        "email": "WuycleYviw542241@outlook.com",
+        "nickname": "livia/livinha",
+        "countryIso": "BR",
+        "tier": "C",
+        "targetUsd": 12.0,
+        "targetBeans": 12000,
+        "dailyIncomeLimitOverride": 12000,
+        "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+        "ownerMachineLabel": "GuanghedeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779376257152224",
+        "uid": "14899467",
+        "email": "EfesiKguyww1164@outlook.com",
+        "nickname": "loly",
+        "countryIso": "BR",
+        "tier": "C",
+        "targetUsd": 7.0,
+        "targetBeans": 7000,
+        "dailyIncomeLimitOverride": 7000,
+        "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+        "ownerMachineLabel": "GuanghedeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779376728546384",
+        "uid": "14899694",
+        "email": "HnlkgPjhv644219@outlook.com",
+        "nickname": "💋 yossie 💋",
+        "countryIso": "BR",
+        "tier": "C",
+        "targetUsd": 8.0,
+        "targetBeans": 8000,
+        "dailyIncomeLimitOverride": 8000,
+        "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+        "ownerMachineLabel": "GuanghedeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779466316403726",
+        "uid": "14945748",
+        "email": "GmqzDnqps077387@outlook.com",
+        "nickname": "Precious",
+        "countryIso": "BR",
+        "tier": "C",
+        "targetUsd": 12.25,
+        "targetBeans": 12250,
+        "dailyIncomeLimitOverride": 12250,
+        "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+        "ownerMachineLabel": "GuanghedeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779466471286678",
+        "uid": "14945840",
+        "email": "EuzkfrVpocb4649@outlook.com",
+        "nickname": "flor 🌷🌹",
+        "countryIso": "BR",
+        "tier": "C",
+        "targetUsd": 6.5,
+        "targetBeans": 6500,
+        "dailyIncomeLimitOverride": 6500,
+        "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+        "ownerMachineLabel": "GuanghedeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779466758228224",
+        "uid": "14945999",
+        "email": "UrlrkVbizzg607733@outlook.com",
+        "nickname": "candice",
+        "countryIso": "BR",
+        "tier": "C",
+        "targetUsd": 6.0,
+        "targetBeans": 6000,
+        "dailyIncomeLimitOverride": 6000,
+        "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+        "ownerMachineLabel": "GuanghedeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779466854648439",
+        "uid": "14946071",
+        "email": "ZhvsyyQxmtsn1727@outlook.com",
+        "nickname": "Crush queen",
+        "countryIso": "BR",
+        "tier": "C",
+        "targetUsd": 7.25,
+        "targetBeans": 7250,
+        "dailyIncomeLimitOverride": 7250,
+        "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+        "ownerMachineLabel": "GuanghedeMac-mini.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779791956739742",
+        "uid": "15127693",
+        "email": "RpnxeVyrmm496332@outlook.com",
+        "nickname": "Pao mor..😍💘",
+        "countryIso": "VE",
+        "tier": "D",
+        "targetUsd": 4.25,
+        "targetBeans": 4250,
+        "dailyIncomeLimitOverride": 4250,
+        "ownerMachineId": "stellademacbook-pro.local-imkqamrrsx83",
+        "ownerMachineLabel": "StelladeMacBook-Pro.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779793551267969",
+        "uid": "15127800",
+        "email": "JajmtCkdakv051766@outlook.com",
+        "nickname": "La morenita rodrigue",
+        "countryIso": "CO",
+        "tier": "D",
+        "targetUsd": 6.25,
+        "targetBeans": 6250,
+        "dailyIncomeLimitOverride": 6250,
+        "ownerMachineId": "stellademacbook-pro.local-imkqamrrsx83",
+        "ownerMachineLabel": "StelladeMacBook-Pro.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779793759251391",
+        "uid": "15127933",
+        "email": "ParypIuthj897410@outlook.com",
+        "nickname": "Esmeralda",
+        "countryIso": "CO",
+        "tier": "D",
+        "targetUsd": 5.0,
+        "targetBeans": 5000,
+        "dailyIncomeLimitOverride": 5000,
+        "ownerMachineId": "stellademacbook-pro.local-imkqamrrsx83",
+        "ownerMachineLabel": "StelladeMacBook-Pro.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779793994807812",
+        "uid": "15127994",
+        "email": "PlisjDpncqc5313@outlook.com",
+        "nickname": "Fer🔥",
+        "countryIso": "BR",
+        "tier": "D",
+        "targetUsd": 5.75,
+        "targetBeans": 5750,
+        "dailyIncomeLimitOverride": 5750,
+        "ownerMachineId": "stellademacbook-pro.local-imkqamrrsx83",
+        "ownerMachineLabel": "StelladeMacBook-Pro.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
+      },
+      {
+        "planId": "default",
+        "dateKey": "2026-05-27",
+        "recordId": "reg-1779794266749914",
+        "uid": "15128151",
+        "email": "WpudKtjoj7481@outlook.com",
+        "nickname": "Wild Horny",
+        "countryIso": "VE",
+        "tier": "D",
+        "targetUsd": 3.5,
+        "targetBeans": 3500,
+        "dailyIncomeLimitOverride": 3500,
+        "ownerMachineId": "stellademacbook-pro.local-imkqamrrsx83",
+        "ownerMachineLabel": "StelladeMacBook-Pro.local",
+        "matchMediaBackend": "localAgora",
+        "duoplusImageId": "",
+        "updatedAt": "2026-05-27T06:28:13.207316+00:00"
       }
     ]
   },
@@ -5023,7 +6042,7 @@
       "messageBeans": 0.0,
       "otherBeans": 6270.0,
       "billCount": 5468,
-      "plannedBeans": 89160,
+      "plannedBeans": 107160,
       "online": true,
       "plans": {
         "2026-05-22": {
@@ -5115,6 +6134,24 @@
           "matchMediaBackend": "cloudAdb",
           "duoplusImageId": "xndMN",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1777389984828763",
+          "uid": "13533042",
+          "email": "lucasferreira1988br@outlook.com",
+          "nickname": "Desire 🍒🌾",
+          "countryIso": "BR",
+          "tier": "S",
+          "targetUsd": 18.0,
+          "targetBeans": 18000,
+          "dailyIncomeLimitOverride": 18000,
+          "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+          "ownerMachineLabel": "pengjizongdeMac-mini.local",
+          "matchMediaBackend": "cloudAdb",
+          "duoplusImageId": "xndMN",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -5356,7 +6393,7 @@
       "messageBeans": 0.0,
       "otherBeans": 7700.0,
       "billCount": 4677,
-      "plannedBeans": 80930,
+      "plannedBeans": 96680,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -5448,6 +6485,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1777567392000707",
+          "uid": "13614661",
+          "email": "anacostafuy@outlook.com",
+          "nickname": "Anacosta",
+          "countryIso": "BR",
+          "tier": "A",
+          "targetUsd": 15.75,
+          "targetBeans": 15750,
+          "dailyIncomeLimitOverride": 15750,
+          "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+          "ownerMachineLabel": "GuanghedeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -5698,7 +6753,7 @@
       "messageBeans": 0.0,
       "otherBeans": 5300.0,
       "billCount": 4894,
-      "plannedBeans": 66460,
+      "plannedBeans": 81210,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -5790,6 +6845,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1777393377613550",
+          "uid": "13533819",
+          "email": "rafaelcostaof@outlook.com",
+          "nickname": "Luna Morena 🌸",
+          "countryIso": "BR",
+          "tier": "A",
+          "targetUsd": 14.75,
+          "targetBeans": 14750,
+          "dailyIncomeLimitOverride": 14750,
+          "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+          "ownerMachineLabel": "GuanghedeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -6040,7 +7113,7 @@
       "messageBeans": 0.0,
       "otherBeans": 7130.0,
       "billCount": 5222,
-      "plannedBeans": 80420,
+      "plannedBeans": 91170,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -6132,6 +7205,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "xndMN",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1777566755384887",
+          "uid": "13610810",
+          "email": "jeony2026@outlook.com",
+          "nickname": "NinaC",
+          "countryIso": "BR",
+          "tier": "A",
+          "targetUsd": 10.75,
+          "targetBeans": 10750,
+          "dailyIncomeLimitOverride": 10750,
+          "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+          "ownerMachineLabel": "GuanghedeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "xndMN",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -6382,7 +7473,7 @@
       "messageBeans": 0.0,
       "otherBeans": 4350.0,
       "billCount": 3500,
-      "plannedBeans": 85060,
+      "plannedBeans": 103560,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -6474,6 +7565,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1778603882554338",
+          "uid": "14416130",
+          "email": "fernanda1ima1@outlook.com",
+          "nickname": "Camila Ugarte",
+          "countryIso": "BR",
+          "tier": "S",
+          "targetUsd": 18.5,
+          "targetBeans": 18500,
+          "dailyIncomeLimitOverride": 18500,
+          "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+          "ownerMachineLabel": "cicideMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -6724,8 +7833,8 @@
       "messageBeans": 0.0,
       "otherBeans": 2260.0,
       "billCount": 3886,
-      "plannedBeans": 74820,
-      "online": false,
+      "plannedBeans": 88070,
+      "online": true,
       "plans": {
         "2026-05-22": {
           "planId": "buffered-2026-05-22_2026-05-24",
@@ -6816,6 +7925,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "veMyh",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1778375243368036",
+          "uid": "14068922",
+          "email": "juliaferreira078@outlook.com",
+          "nickname": "Beauti",
+          "countryIso": "CO",
+          "tier": "A",
+          "targetUsd": 13.25,
+          "targetBeans": 13250,
+          "dailyIncomeLimitOverride": 13250,
+          "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+          "ownerMachineLabel": "pengjizongdeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "veMyh",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -7066,7 +8193,7 @@
       "messageBeans": 0.0,
       "otherBeans": 5230.0,
       "billCount": 3671,
-      "plannedBeans": 67240,
+      "plannedBeans": 80990,
       "online": true,
       "plans": {
         "2026-05-22": {
@@ -7158,6 +8285,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "TA6iM",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1778066993394012",
+          "uid": "13877793",
+          "email": "hlychovy@outlook.com",
+          "nickname": "Nina 🌺",
+          "countryIso": "BR",
+          "tier": "B",
+          "targetUsd": 13.75,
+          "targetBeans": 13750,
+          "dailyIncomeLimitOverride": 13750,
+          "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+          "ownerMachineLabel": "pengjizongdeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "TA6iM",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -7408,7 +8553,7 @@
       "messageBeans": 0.0,
       "otherBeans": 4180.0,
       "billCount": 2095,
-      "plannedBeans": 79690,
+      "plannedBeans": 97190,
       "online": true,
       "plans": {
         "2026-05-22": {
@@ -7500,6 +8645,24 @@
           "matchMediaBackend": "cloudAdb",
           "duoplusImageId": "73Jd0",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1778601967798876",
+          "uid": "14414714",
+          "email": "qwxzmoj7116y@outlook.com",
+          "nickname": "MeL",
+          "countryIso": "BR",
+          "tier": "A",
+          "targetUsd": 17.5,
+          "targetBeans": 17500,
+          "dailyIncomeLimitOverride": 17500,
+          "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+          "ownerMachineLabel": "pengjizongdeMac-mini.local",
+          "matchMediaBackend": "cloudAdb",
+          "duoplusImageId": "73Jd0",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -7750,7 +8913,7 @@
       "messageBeans": 0.0,
       "otherBeans": 5570.0,
       "billCount": 7867,
-      "plannedBeans": 58860,
+      "plannedBeans": 69360,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -7842,6 +9005,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "lyxrG",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1777558399105009",
+          "uid": "13612328",
+          "email": "hioppi2026@outlook.com",
+          "nickname": "Ruiva",
+          "countryIso": "BR",
+          "tier": "B",
+          "targetUsd": 10.5,
+          "targetBeans": 10500,
+          "dailyIncomeLimitOverride": 10500,
+          "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+          "ownerMachineLabel": "GuanghedeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "lyxrG",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -8092,7 +9273,7 @@
       "messageBeans": 0.0,
       "otherBeans": 3820.0,
       "billCount": 4640,
-      "plannedBeans": 71910,
+      "plannedBeans": 91410,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -8184,6 +9365,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1778602732165195",
+          "uid": "14415249",
+          "email": "beatrizalves142@outlook.com",
+          "nickname": "Juna Maglinte",
+          "countryIso": "BR",
+          "tier": "A",
+          "targetUsd": 19.5,
+          "targetBeans": 19500,
+          "dailyIncomeLimitOverride": 19500,
+          "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+          "ownerMachineLabel": "cicideMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -8434,8 +9633,8 @@
       "messageBeans": 0.0,
       "otherBeans": 3050.0,
       "billCount": 4166,
-      "plannedBeans": 71170,
-      "online": false,
+      "plannedBeans": 84670,
+      "online": true,
       "plans": {
         "2026-05-22": {
           "planId": "buffered-2026-05-22_2026-05-24",
@@ -8526,6 +9725,24 @@
           "matchMediaBackend": "cloudAdb",
           "duoplusImageId": "A0CYK",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1778515350132826",
+          "uid": "14160034",
+          "email": "enzo2ocha@outlook.com",
+          "nickname": "Elvis Guerrero",
+          "countryIso": "VE",
+          "tier": "A",
+          "targetUsd": 13.5,
+          "targetBeans": 13500,
+          "dailyIncomeLimitOverride": 13500,
+          "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+          "ownerMachineLabel": "pengjizongdeMac-mini.local",
+          "matchMediaBackend": "cloudAdb",
+          "duoplusImageId": "A0CYK",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -8776,7 +9993,7 @@
       "messageBeans": 0.0,
       "otherBeans": 3480.0,
       "billCount": 4469,
-      "plannedBeans": 68500,
+      "plannedBeans": 87500,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -8868,6 +10085,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1778597807460605",
+          "uid": "14411935",
+          "email": "pedro177santos@outlook.com",
+          "nickname": "Tammi",
+          "countryIso": "VE",
+          "tier": "A",
+          "targetUsd": 19.0,
+          "targetBeans": 19000,
+          "dailyIncomeLimitOverride": 19000,
+          "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+          "ownerMachineLabel": "cicideMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -9010,7 +10245,7 @@
       "messageBeans": 0.0,
       "otherBeans": 4490.0,
       "billCount": 4510,
-      "plannedBeans": 70770,
+      "plannedBeans": 87770,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -9102,6 +10337,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1778598383762884",
+          "uid": "14412273",
+          "email": "camilarodriguez8824@hotmail.com",
+          "nickname": "Rosal",
+          "countryIso": "BR",
+          "tier": "A",
+          "targetUsd": 17.0,
+          "targetBeans": 17000,
+          "dailyIncomeLimitOverride": 17000,
+          "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+          "ownerMachineLabel": "cicideMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -9244,7 +10497,7 @@
       "messageBeans": 0.0,
       "otherBeans": 4890.0,
       "billCount": 3849,
-      "plannedBeans": 67020,
+      "plannedBeans": 87020,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -9336,6 +10589,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1778599743692044",
+          "uid": "14413208",
+          "email": "isadora0nunes@outlook.com",
+          "nickname": "Leidy oerez",
+          "countryIso": "BR",
+          "tier": "A",
+          "targetUsd": 20.0,
+          "targetBeans": 20000,
+          "dailyIncomeLimitOverride": 20000,
+          "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+          "ownerMachineLabel": "cicideMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -9847,7 +11118,7 @@
       "messageBeans": 0.0,
       "otherBeans": 3120.0,
       "billCount": 3034,
-      "plannedBeans": 59010,
+      "plannedBeans": 75260,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -9939,6 +11210,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1778603358065870",
+          "uid": "14415741",
+          "email": "amandaferdes@outlook.com",
+          "nickname": "jissa",
+          "countryIso": "CO",
+          "tier": "A",
+          "targetUsd": 16.25,
+          "targetBeans": 16250,
+          "dailyIncomeLimitOverride": 16250,
+          "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+          "ownerMachineLabel": "cicideMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -10189,7 +11478,7 @@
       "messageBeans": 0.0,
       "otherBeans": 2570.0,
       "billCount": 2687,
-      "plannedBeans": 6000,
+      "plannedBeans": 15750,
       "online": false,
       "plans": {
         "2026-05-26": {
@@ -10209,6 +11498,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1778247244144312",
+          "uid": "13965130",
+          "email": "gabrielalmeida1944@outlook.com",
+          "nickname": "Rosa Tropical 🌺",
+          "countryIso": "CO",
+          "tier": "D",
+          "targetUsd": 9.75,
+          "targetBeans": 9750,
+          "dailyIncomeLimitOverride": 9750,
+          "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+          "ownerMachineLabel": "cicideMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -10459,7 +11766,7 @@
       "messageBeans": 0.0,
       "otherBeans": 3690.0,
       "billCount": 3348,
-      "plannedBeans": 57000,
+      "plannedBeans": 73500,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -10551,6 +11858,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1778579419546605",
+          "uid": "14401450",
+          "email": "lucas76souza@outlook.com",
+          "nickname": "ABBY",
+          "countryIso": "VE",
+          "tier": "B",
+          "targetUsd": 16.5,
+          "targetBeans": 16500,
+          "dailyIncomeLimitOverride": 16500,
+          "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+          "ownerMachineLabel": "cicideMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -10693,7 +12018,7 @@
       "messageBeans": 0.0,
       "otherBeans": 3710.0,
       "billCount": 1897,
-      "plannedBeans": 74780,
+      "plannedBeans": 90780,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -10785,6 +12110,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "lyxrG",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1777528854300906",
+          "uid": "13605343",
+          "email": "Maria2221969@outlook.com",
+          "nickname": "Nina Glow",
+          "countryIso": "BR",
+          "tier": "A",
+          "targetUsd": 16.0,
+          "targetBeans": 16000,
+          "dailyIncomeLimitOverride": 16000,
+          "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+          "ownerMachineLabel": "GuanghedeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "lyxrG",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -11035,8 +12378,8 @@
       "messageBeans": 0.0,
       "otherBeans": 2750.0,
       "billCount": 2260,
-      "plannedBeans": 64940,
-      "online": false,
+      "plannedBeans": 78940,
+      "online": true,
       "plans": {
         "2026-05-22": {
           "planId": "buffered-2026-05-22_2026-05-24",
@@ -11127,6 +12470,24 @@
           "matchMediaBackend": "cloudAdb",
           "duoplusImageId": "c9z0n",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1778250497447836",
+          "uid": "13611243",
+          "email": "gevzyoc0890f@outlook.com",
+          "nickname": "Flor da",
+          "countryIso": "BR",
+          "tier": "A",
+          "targetUsd": 14.0,
+          "targetBeans": 14000,
+          "dailyIncomeLimitOverride": 14000,
+          "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+          "ownerMachineLabel": "pengjizongdeMac-mini.local",
+          "matchMediaBackend": "cloudAdb",
+          "duoplusImageId": "c9z0n",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -11377,8 +12738,8 @@
       "messageBeans": 0.0,
       "otherBeans": 3540.0,
       "billCount": 1231,
-      "plannedBeans": 66070,
-      "online": false,
+      "plannedBeans": 82570,
+      "online": true,
       "plans": {
         "2026-05-22": {
           "planId": "buffered-2026-05-22_2026-05-24",
@@ -11469,6 +12830,24 @@
           "matchMediaBackend": "cloudAdb",
           "duoplusImageId": "ONuSl",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1778073686442654",
+          "uid": "13879704",
+          "email": "mixxMick2026@outlook.com",
+          "nickname": "Gabi Doce",
+          "countryIso": "BR",
+          "tier": "A",
+          "targetUsd": 16.5,
+          "targetBeans": 16500,
+          "dailyIncomeLimitOverride": 16500,
+          "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+          "ownerMachineLabel": "pengjizongdeMac-mini.local",
+          "matchMediaBackend": "cloudAdb",
+          "duoplusImageId": "ONuSl",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -11719,7 +13098,7 @@
       "messageBeans": 0.0,
       "otherBeans": 5350.0,
       "billCount": 5354,
-      "plannedBeans": 57180,
+      "plannedBeans": 69680,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -11811,6 +13190,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "euuEC",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1778600016531982",
+          "uid": "14413396",
+          "email": "Alice111costa@outlook.com",
+          "nickname": "Hiraly",
+          "countryIso": "BR",
+          "tier": "B",
+          "targetUsd": 12.5,
+          "targetBeans": 12500,
+          "dailyIncomeLimitOverride": 12500,
+          "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+          "ownerMachineLabel": "GuanghedeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "euuEC",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -12061,7 +13458,7 @@
       "messageBeans": 0.0,
       "otherBeans": 3470.0,
       "billCount": 4135,
-      "plannedBeans": 48580,
+      "plannedBeans": 61330,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -12153,6 +13550,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1778599385441636",
+          "uid": "14412990",
+          "email": "gisphag6927b@outlook.com",
+          "nickname": "Aisha",
+          "countryIso": "VE",
+          "tier": "B",
+          "targetUsd": 12.75,
+          "targetBeans": 12750,
+          "dailyIncomeLimitOverride": 12750,
+          "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+          "ownerMachineLabel": "cicideMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -12403,7 +13818,7 @@
       "messageBeans": 0.0,
       "otherBeans": 4150.0,
       "billCount": 5228,
-      "plannedBeans": 45680,
+      "plannedBeans": 53430,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -12495,6 +13910,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1778604430029272",
+          "uid": "14416590",
+          "email": "l1uizacarvalho@outlook.com",
+          "nickname": "Sandry Beleno",
+          "countryIso": "BR",
+          "tier": "B",
+          "targetUsd": 7.75,
+          "targetBeans": 7750,
+          "dailyIncomeLimitOverride": 7750,
+          "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+          "ownerMachineLabel": "cicideMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -12745,8 +14178,8 @@
       "messageBeans": 0.0,
       "otherBeans": 1600.0,
       "billCount": 2419,
-      "plannedBeans": 55990,
-      "online": false,
+      "plannedBeans": 70990,
+      "online": true,
       "plans": {
         "2026-05-22": {
           "planId": "buffered-2026-05-22_2026-05-24",
@@ -12837,6 +14270,24 @@
           "matchMediaBackend": "cloudAdb",
           "duoplusImageId": "lyxrG",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779195481738745",
+          "uid": "14804028",
+          "email": "EourhAmufo184418@outlook.com",
+          "nickname": "Laura Zabala",
+          "countryIso": "BR",
+          "tier": "B",
+          "targetUsd": 15.0,
+          "targetBeans": 15000,
+          "dailyIncomeLimitOverride": 15000,
+          "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+          "ownerMachineLabel": "pengjizongdeMac-mini.local",
+          "matchMediaBackend": "cloudAdb",
+          "duoplusImageId": "lyxrG",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -13131,8 +14582,8 @@
       "messageBeans": 0.0,
       "otherBeans": 2160.0,
       "billCount": 2736,
-      "plannedBeans": 57810,
-      "online": false,
+      "plannedBeans": 72060,
+      "online": true,
       "plans": {
         "2026-05-22": {
           "planId": "buffered-2026-05-22_2026-05-24",
@@ -13223,6 +14674,24 @@
           "matchMediaBackend": "cloudAdb",
           "duoplusImageId": "9HPff",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779118481080750",
+          "uid": "14750877",
+          "email": "jemmiry2026@outlook.com",
+          "nickname": "Kristin",
+          "countryIso": "BR",
+          "tier": "B",
+          "targetUsd": 14.25,
+          "targetBeans": 14250,
+          "dailyIncomeLimitOverride": 14250,
+          "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+          "ownerMachineLabel": "pengjizongdeMac-mini.local",
+          "matchMediaBackend": "cloudAdb",
+          "duoplusImageId": "9HPff",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -13320,8 +14789,8 @@
       "messageBeans": 0.0,
       "otherBeans": 1550.0,
       "billCount": 1291,
-      "plannedBeans": 63840,
-      "online": false,
+      "plannedBeans": 82840,
+      "online": true,
       "plans": {
         "2026-05-22": {
           "planId": "buffered-2026-05-22_2026-05-24",
@@ -13412,6 +14881,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "c9z0n",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779286877346435",
+          "uid": "14852849",
+          "email": "EozhhQqsvo788669@outlook.com",
+          "nickname": "Yuamary Marquez",
+          "countryIso": "BR",
+          "tier": "A",
+          "targetUsd": 19.0,
+          "targetBeans": 19000,
+          "dailyIncomeLimitOverride": 19000,
+          "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+          "ownerMachineLabel": "pengjizongdeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "c9z0n",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -13742,7 +15229,7 @@
       "messageBeans": 0.0,
       "otherBeans": 1420.0,
       "billCount": 3023,
-      "plannedBeans": 64510,
+      "plannedBeans": 82010,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -13834,6 +15321,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1778604090402086",
+          "uid": "14416342",
+          "email": "patrciamendes1@outlook.com",
+          "nickname": "Fabulous",
+          "countryIso": "PH",
+          "tier": "B",
+          "targetUsd": 17.5,
+          "targetBeans": 17500,
+          "dailyIncomeLimitOverride": 17500,
+          "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+          "ownerMachineLabel": "cicideMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -14084,7 +15589,7 @@
       "messageBeans": 0.0,
       "otherBeans": 1000.0,
       "billCount": 929,
-      "plannedBeans": 53360,
+      "plannedBeans": 66860,
       "online": true,
       "plans": {
         "2026-05-22": {
@@ -14176,6 +15681,24 @@
           "matchMediaBackend": "cloudAdb",
           "duoplusImageId": "dEXc9",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779195701411022",
+          "uid": "14804158",
+          "email": "HjsudCormm64744@outlook.com",
+          "nickname": "Isabela",
+          "countryIso": "CO",
+          "tier": "B",
+          "targetUsd": 13.5,
+          "targetBeans": 13500,
+          "dailyIncomeLimitOverride": 13500,
+          "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+          "ownerMachineLabel": "pengjizongdeMac-mini.local",
+          "matchMediaBackend": "cloudAdb",
+          "duoplusImageId": "dEXc9",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -14434,8 +15957,8 @@
       "messageBeans": 0.0,
       "otherBeans": 2180.0,
       "billCount": 3111,
-      "plannedBeans": 53450,
-      "online": false,
+      "plannedBeans": 69950,
+      "online": true,
       "plans": {
         "2026-05-22": {
           "planId": "buffered-2026-05-22_2026-05-24",
@@ -14526,6 +16049,24 @@
           "matchMediaBackend": "cloudAdb",
           "duoplusImageId": "euuEC",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1778376341498574",
+          "uid": "14069533",
+          "email": "rafael1ima@outlook.com",
+          "nickname": "Judy",
+          "countryIso": "PH",
+          "tier": "B",
+          "targetUsd": 16.5,
+          "targetBeans": 16500,
+          "dailyIncomeLimitOverride": 16500,
+          "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+          "ownerMachineLabel": "pengjizongdeMac-mini.local",
+          "matchMediaBackend": "cloudAdb",
+          "duoplusImageId": "euuEC",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -14776,7 +16317,7 @@
       "messageBeans": 0.0,
       "otherBeans": 1550.0,
       "billCount": 1249,
-      "plannedBeans": 63560,
+      "plannedBeans": 78810,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -14868,6 +16409,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779197414080816",
+          "uid": "14805065",
+          "email": "nwahcwf5346n@outlook.com",
+          "nickname": "Camila🦩💖",
+          "countryIso": "BR",
+          "tier": "A",
+          "targetUsd": 15.25,
+          "targetBeans": 15250,
+          "dailyIncomeLimitOverride": 15250,
+          "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+          "ownerMachineLabel": "GuanghedeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -14956,8 +16515,8 @@
       "messageBeans": 0.0,
       "otherBeans": 1550.0,
       "billCount": 1907,
-      "plannedBeans": 43340,
-      "online": false,
+      "plannedBeans": 56840,
+      "online": true,
       "plans": {
         "2026-05-22": {
           "planId": "buffered-2026-05-22_2026-05-24",
@@ -15048,6 +16607,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "ONuSl",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779284932739937",
+          "uid": "14852010",
+          "email": "RgbtvCmmuoi662949@outlook.com",
+          "nickname": "cheima cheima",
+          "countryIso": "BR",
+          "tier": "B",
+          "targetUsd": 13.5,
+          "targetBeans": 13500,
+          "dailyIncomeLimitOverride": 13500,
+          "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+          "ownerMachineLabel": "pengjizongdeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "ONuSl",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -15127,8 +16704,8 @@
       "messageBeans": 0.0,
       "otherBeans": 2160.0,
       "billCount": 2458,
-      "plannedBeans": 43750,
-      "online": false,
+      "plannedBeans": 57000,
+      "online": true,
       "plans": {
         "2026-05-22": {
           "planId": "buffered-2026-05-22_2026-05-24",
@@ -15219,6 +16796,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "9HPff",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779115818122105",
+          "uid": "14748954",
+          "email": "jessica1lopes@outlook.com",
+          "nickname": "Sofia verenzuela",
+          "countryIso": "BR",
+          "tier": "B",
+          "targetUsd": 13.25,
+          "targetBeans": 13250,
+          "dailyIncomeLimitOverride": 13250,
+          "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+          "ownerMachineLabel": "pengjizongdeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "9HPff",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -15316,7 +16911,7 @@
       "messageBeans": 0.0,
       "otherBeans": 1550.0,
       "billCount": 2236,
-      "plannedBeans": 43110,
+      "plannedBeans": 50610,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -15408,6 +17003,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "73Jd0",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779285914361289",
+          "uid": "14852458",
+          "email": "JgoikoWxrdx03714@outlook.com",
+          "nickname": "Alex🤎",
+          "countryIso": "BR",
+          "tier": "B",
+          "targetUsd": 7.5,
+          "targetBeans": 7500,
+          "dailyIncomeLimitOverride": 7500,
+          "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+          "ownerMachineLabel": "GuanghedeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "73Jd0",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -15487,7 +17100,7 @@
       "messageBeans": 0.0,
       "otherBeans": 1550.0,
       "billCount": 2337,
-      "plannedBeans": 45090,
+      "plannedBeans": 58090,
       "online": true,
       "plans": {
         "2026-05-22": {
@@ -15579,6 +17192,24 @@
           "matchMediaBackend": "cloudAdb",
           "duoplusImageId": "Sxsbo",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779200905105419",
+          "uid": "14807042",
+          "email": "pamela21nunes@outlook.com",
+          "nickname": "Jackeline",
+          "countryIso": "BR",
+          "tier": "B",
+          "targetUsd": 13.0,
+          "targetBeans": 13000,
+          "dailyIncomeLimitOverride": 13000,
+          "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+          "ownerMachineLabel": "pengjizongdeMac-mini.local",
+          "matchMediaBackend": "cloudAdb",
+          "duoplusImageId": "Sxsbo",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -15667,7 +17298,7 @@
       "messageBeans": 0.0,
       "otherBeans": 1550.0,
       "billCount": 1933,
-      "plannedBeans": 48480,
+      "plannedBeans": 57730,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -15759,6 +17390,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "73Jd0",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779286680216115",
+          "uid": "14852775",
+          "email": "AhdatjYiqxlt098247@outlook.com",
+          "nickname": "yelixis fernandez",
+          "countryIso": "BR",
+          "tier": "B",
+          "targetUsd": 9.25,
+          "targetBeans": 9250,
+          "dailyIncomeLimitOverride": 9250,
+          "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+          "ownerMachineLabel": "GuanghedeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "73Jd0",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -15838,7 +17487,7 @@
       "messageBeans": 0.0,
       "otherBeans": 1550.0,
       "billCount": 1024,
-      "plannedBeans": 34180,
+      "plannedBeans": 40930,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -15930,6 +17579,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779375849090653",
+          "uid": "14899258",
+          "email": "BdhcxxNgdho7221@outlook.com",
+          "nickname": "Jannatul megha Janna",
+          "countryIso": "BR",
+          "tier": "C",
+          "targetUsd": 6.75,
+          "targetBeans": 6750,
+          "dailyIncomeLimitOverride": 6750,
+          "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+          "ownerMachineLabel": "GuanghedeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -16000,7 +17667,7 @@
       "messageBeans": 0.0,
       "otherBeans": 1550.0,
       "billCount": 1159,
-      "plannedBeans": 28440,
+      "plannedBeans": 40440,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -16092,6 +17759,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779376087204933",
+          "uid": "14899398",
+          "email": "WuycleYviw542241@outlook.com",
+          "nickname": "livia/livinha",
+          "countryIso": "BR",
+          "tier": "C",
+          "targetUsd": 12.0,
+          "targetBeans": 12000,
+          "dailyIncomeLimitOverride": 12000,
+          "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+          "ownerMachineLabel": "GuanghedeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -16162,7 +17847,7 @@
       "messageBeans": 0.0,
       "otherBeans": 1550.0,
       "billCount": 1122,
-      "plannedBeans": 37660,
+      "plannedBeans": 43910,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -16254,6 +17939,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779375969285486",
+          "uid": "14899307",
+          "email": "XzycahTypf8423@outlook.com",
+          "nickname": "QueennotKwen",
+          "countryIso": "BR",
+          "tier": "B",
+          "targetUsd": 6.25,
+          "targetBeans": 6250,
+          "dailyIncomeLimitOverride": 6250,
+          "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+          "ownerMachineLabel": "GuanghedeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -16324,8 +18027,8 @@
       "messageBeans": 0.0,
       "otherBeans": 550.0,
       "billCount": 956,
-      "plannedBeans": 32200,
-      "online": false,
+      "plannedBeans": 39450,
+      "online": true,
       "plans": {
         "2026-05-22": {
           "planId": "buffered-2026-05-22_2026-05-24",
@@ -16416,6 +18119,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "ONuSl",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779285185253378",
+          "uid": "14852145",
+          "email": "LbjpofUjmkki144974@outlook.com",
+          "nickname": "Maricela",
+          "countryIso": "CO",
+          "tier": "C",
+          "targetUsd": 7.25,
+          "targetBeans": 7250,
+          "dailyIncomeLimitOverride": 7250,
+          "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+          "ownerMachineLabel": "pengjizongdeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "ONuSl",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -16495,7 +18216,7 @@
       "messageBeans": 0.0,
       "otherBeans": 1550.0,
       "billCount": 1460,
-      "plannedBeans": 34540,
+      "plannedBeans": 42540,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -16587,6 +18308,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779376728546384",
+          "uid": "14899694",
+          "email": "HnlkgPjhv644219@outlook.com",
+          "nickname": "💋 yossie 💋",
+          "countryIso": "BR",
+          "tier": "C",
+          "targetUsd": 8.0,
+          "targetBeans": 8000,
+          "dailyIncomeLimitOverride": 8000,
+          "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+          "ownerMachineLabel": "GuanghedeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -16657,7 +18396,7 @@
       "messageBeans": 0.0,
       "otherBeans": 550.0,
       "billCount": 946,
-      "plannedBeans": 23680,
+      "plannedBeans": 35930,
       "online": false,
       "plans": {
         "2026-05-24": {
@@ -16713,6 +18452,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779466316403726",
+          "uid": "14945748",
+          "email": "GmqzDnqps077387@outlook.com",
+          "nickname": "Precious",
+          "countryIso": "BR",
+          "tier": "C",
+          "targetUsd": 12.25,
+          "targetBeans": 12250,
+          "dailyIncomeLimitOverride": 12250,
+          "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+          "ownerMachineLabel": "GuanghedeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -16765,8 +18522,8 @@
       "messageBeans": 0.0,
       "otherBeans": 550.0,
       "billCount": 1033,
-      "plannedBeans": 27300,
-      "online": false,
+      "plannedBeans": 33800,
+      "online": true,
       "plans": {
         "2026-05-22": {
           "planId": "buffered-2026-05-22_2026-05-24",
@@ -16857,6 +18614,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "TA6iM",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779200661805605",
+          "uid": "14806888",
+          "email": "deborauieira@outlook.com",
+          "nickname": "la negra",
+          "countryIso": "CO",
+          "tier": "C",
+          "targetUsd": 6.5,
+          "targetBeans": 6500,
+          "dailyIncomeLimitOverride": 6500,
+          "ownerMachineId": "pengjizongdemac-mini.local-svy2qlw3xsa3",
+          "ownerMachineLabel": "pengjizongdeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "TA6iM",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -16945,7 +18720,7 @@
       "messageBeans": 0.0,
       "otherBeans": 1550.0,
       "billCount": 1166,
-      "plannedBeans": 33670,
+      "plannedBeans": 40670,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -17037,6 +18812,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779376257152224",
+          "uid": "14899467",
+          "email": "EfesiKguyww1164@outlook.com",
+          "nickname": "loly",
+          "countryIso": "BR",
+          "tier": "C",
+          "targetUsd": 7.0,
+          "targetBeans": 7000,
+          "dailyIncomeLimitOverride": 7000,
+          "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+          "ownerMachineLabel": "GuanghedeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -17107,7 +18900,7 @@
       "messageBeans": 0.0,
       "otherBeans": 1550.0,
       "billCount": 941,
-      "plannedBeans": 21270,
+      "plannedBeans": 27270,
       "online": false,
       "plans": {
         "2026-05-24": {
@@ -17163,6 +18956,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779466758228224",
+          "uid": "14945999",
+          "email": "UrlrkVbizzg607733@outlook.com",
+          "nickname": "candice",
+          "countryIso": "BR",
+          "tier": "C",
+          "targetUsd": 6.0,
+          "targetBeans": 6000,
+          "dailyIncomeLimitOverride": 6000,
+          "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+          "ownerMachineLabel": "GuanghedeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -17215,7 +19026,7 @@
       "messageBeans": 0.0,
       "otherBeans": 1550.0,
       "billCount": 623,
-      "plannedBeans": 23280,
+      "plannedBeans": 30530,
       "online": false,
       "plans": {
         "2026-05-24": {
@@ -17271,6 +19082,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779466854648439",
+          "uid": "14946071",
+          "email": "ZhvsyyQxmtsn1727@outlook.com",
+          "nickname": "Crush queen",
+          "countryIso": "BR",
+          "tier": "C",
+          "targetUsd": 7.25,
+          "targetBeans": 7250,
+          "dailyIncomeLimitOverride": 7250,
+          "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+          "ownerMachineLabel": "GuanghedeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -17323,7 +19152,7 @@
       "messageBeans": 0.0,
       "otherBeans": 1550.0,
       "billCount": 602,
-      "plannedBeans": 24790,
+      "plannedBeans": 31290,
       "online": false,
       "plans": {
         "2026-05-24": {
@@ -17379,6 +19208,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779466471286678",
+          "uid": "14945840",
+          "email": "EuzkfrVpocb4649@outlook.com",
+          "nickname": "flor 🌷🌹",
+          "countryIso": "BR",
+          "tier": "C",
+          "targetUsd": 6.5,
+          "targetBeans": 6500,
+          "dailyIncomeLimitOverride": 6500,
+          "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+          "ownerMachineLabel": "GuanghedeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -18723,7 +20570,7 @@
       "messageBeans": 0.0,
       "otherBeans": 640.0,
       "billCount": 169,
-      "plannedBeans": 6000,
+      "plannedBeans": 12250,
       "online": false,
       "plans": {
         "2026-05-26": {
@@ -18743,6 +20590,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779793551267969",
+          "uid": "15127800",
+          "email": "JajmtCkdakv051766@outlook.com",
+          "nickname": "La morenita rodrigue",
+          "countryIso": "CO",
+          "tier": "D",
+          "targetUsd": 6.25,
+          "targetBeans": 6250,
+          "dailyIncomeLimitOverride": 6250,
+          "ownerMachineId": "stellademacbook-pro.local-imkqamrrsx83",
+          "ownerMachineLabel": "StelladeMacBook-Pro.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -18768,7 +20633,7 @@
       "messageBeans": 0.0,
       "otherBeans": 550.0,
       "billCount": 240,
-      "plannedBeans": 22670,
+      "plannedBeans": 25420,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -18860,6 +20725,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "c9z0n",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779113450326182",
+          "uid": "14747515",
+          "email": "gabrieladduarte09@outlook.com",
+          "nickname": "Anna",
+          "countryIso": "PH",
+          "tier": "D",
+          "targetUsd": 2.75,
+          "targetBeans": 2750,
+          "dailyIncomeLimitOverride": 2750,
+          "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+          "ownerMachineLabel": "GuanghedeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "c9z0n",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -18957,7 +20840,7 @@
       "messageBeans": 0.0,
       "otherBeans": 250.0,
       "billCount": 242,
-      "plannedBeans": 6000,
+      "plannedBeans": 11750,
       "online": false,
       "plans": {
         "2026-05-26": {
@@ -18977,6 +20860,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779793994807812",
+          "uid": "15127994",
+          "email": "PlisjDpncqc5313@outlook.com",
+          "nickname": "Fer🔥",
+          "countryIso": "BR",
+          "tier": "D",
+          "targetUsd": 5.75,
+          "targetBeans": 5750,
+          "dailyIncomeLimitOverride": 5750,
+          "ownerMachineId": "stellademacbook-pro.local-imkqamrrsx83",
+          "ownerMachineLabel": "StelladeMacBook-Pro.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -19002,7 +20903,7 @@
       "messageBeans": 0.0,
       "otherBeans": 610.0,
       "billCount": 407,
-      "plannedBeans": 20750,
+      "plannedBeans": 24000,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -19094,6 +20995,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1778603662467163",
+          "uid": "14415969",
+          "email": "anaclarasouza111@outlook.com",
+          "nickname": "Erika",
+          "countryIso": "PH",
+          "tier": "D",
+          "targetUsd": 3.25,
+          "targetBeans": 3250,
+          "dailyIncomeLimitOverride": 3250,
+          "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+          "ownerMachineLabel": "cicideMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -19344,7 +21263,7 @@
       "messageBeans": 0.0,
       "otherBeans": 0.0,
       "billCount": 199,
-      "plannedBeans": 6000,
+      "plannedBeans": 11000,
       "online": false,
       "plans": {
         "2026-05-26": {
@@ -19364,6 +21283,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779793759251391",
+          "uid": "15127933",
+          "email": "ParypIuthj897410@outlook.com",
+          "nickname": "Esmeralda",
+          "countryIso": "CO",
+          "tier": "D",
+          "targetUsd": 5.0,
+          "targetBeans": 5000,
+          "dailyIncomeLimitOverride": 5000,
+          "ownerMachineId": "stellademacbook-pro.local-imkqamrrsx83",
+          "ownerMachineLabel": "StelladeMacBook-Pro.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -19389,7 +21326,7 @@
       "messageBeans": 0.0,
       "otherBeans": 600.0,
       "billCount": 238,
-      "plannedBeans": 21060,
+      "plannedBeans": 23060,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -19481,6 +21418,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1778599128645685",
+          "uid": "14412792",
+          "email": "valentinamorales2799@outlook.com",
+          "nickname": "Isabela Rico",
+          "countryIso": "VE",
+          "tier": "D",
+          "targetUsd": 2.0,
+          "targetBeans": 2000,
+          "dailyIncomeLimitOverride": 2000,
+          "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+          "ownerMachineLabel": "cicideMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -19731,7 +21686,7 @@
       "messageBeans": 0.0,
       "otherBeans": 1550.0,
       "billCount": 132,
-      "plannedBeans": 20800,
+      "plannedBeans": 23300,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -19823,6 +21778,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1778598941040418",
+          "uid": "14412644",
+          "email": "isabellacruzzzz95@outlook.com",
+          "nickname": "Alexia rodriguez",
+          "countryIso": "BR",
+          "tier": "D",
+          "targetUsd": 2.5,
+          "targetBeans": 2500,
+          "dailyIncomeLimitOverride": 2500,
+          "ownerMachineId": "cicidemac-mini.local-yqpznyks9t5t",
+          "ownerMachineLabel": "cicideMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -20350,7 +22323,7 @@
       "messageBeans": 0.0,
       "otherBeans": 350.0,
       "billCount": 123,
-      "plannedBeans": 6000,
+      "plannedBeans": 10250,
       "online": false,
       "plans": {
         "2026-05-26": {
@@ -20370,6 +22343,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779791956739742",
+          "uid": "15127693",
+          "email": "RpnxeVyrmm496332@outlook.com",
+          "nickname": "Pao mor..😍💘",
+          "countryIso": "VE",
+          "tier": "D",
+          "targetUsd": 4.25,
+          "targetBeans": 4250,
+          "dailyIncomeLimitOverride": 4250,
+          "ownerMachineId": "stellademacbook-pro.local-imkqamrrsx83",
+          "ownerMachineLabel": "StelladeMacBook-Pro.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -20395,7 +22386,7 @@
       "messageBeans": 0.0,
       "otherBeans": 0.0,
       "billCount": 96,
-      "plannedBeans": 6000,
+      "plannedBeans": 9500,
       "online": false,
       "plans": {
         "2026-05-26": {
@@ -20415,6 +22406,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1779794266749914",
+          "uid": "15128151",
+          "email": "WpudKtjoj7481@outlook.com",
+          "nickname": "Wild Horny",
+          "countryIso": "VE",
+          "tier": "D",
+          "targetUsd": 3.5,
+          "targetBeans": 3500,
+          "dailyIncomeLimitOverride": 3500,
+          "ownerMachineId": "stellademacbook-pro.local-imkqamrrsx83",
+          "ownerMachineLabel": "StelladeMacBook-Pro.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
@@ -20440,7 +22449,7 @@
       "messageBeans": 0.0,
       "otherBeans": 260.0,
       "billCount": 119,
-      "plannedBeans": 21050,
+      "plannedBeans": 23050,
       "online": false,
       "plans": {
         "2026-05-22": {
@@ -20532,6 +22541,24 @@
           "matchMediaBackend": "localAgora",
           "duoplusImageId": "",
           "updatedAt": "2026-05-26T15:27:10.163+00:00"
+        },
+        "2026-05-27": {
+          "planId": "default",
+          "dateKey": "2026-05-27",
+          "recordId": "reg-1778777016902994",
+          "uid": "14521905",
+          "email": "juliana1lima@outlook.com",
+          "nickname": "Catherine💅🏻",
+          "countryIso": "PH",
+          "tier": "D",
+          "targetUsd": 2.0,
+          "targetBeans": 2000,
+          "dailyIncomeLimitOverride": 2000,
+          "ownerMachineId": "guanghedemac-mini.local-z0f3ylo0lnmw",
+          "ownerMachineLabel": "GuanghedeMac-mini.local",
+          "matchMediaBackend": "localAgora",
+          "duoplusImageId": "",
+          "updatedAt": "2026-05-27T06:28:13.207316+00:00"
         }
       },
       "days": {
