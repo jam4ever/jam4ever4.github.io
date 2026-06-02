@@ -6,6 +6,10 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
+const _incomeDisplaySharesByAddress = {
+  '0x80ff32f2772d875d50737fd5c7f9225795497db2': 0.5,
+};
+
 void main() {
   runApp(const IncomeDashboardApp());
 }
@@ -1597,21 +1601,19 @@ class IncomeDashboardData {
             json['accounts'],
           ).map((item) => IncomeAccount.fromJson(item)).toList()
           ..sort((a, b) => b.totalBeans.compareTo(a.totalBeans));
-    final countryTotals =
-        _list(
-            json['countryTotals'],
-          ).map((item) => CountryIncomeTotal.fromJson(item)).toList()
-          ..sort((a, b) => b.totalBeans.compareTo(a.totalBeans));
-    final dailyTotals =
-        _list(
-            json['dailyTotals'],
-          ).map((item) => DailyIncomeTotal.fromJson(item)).toList()
-          ..sort((a, b) => a.date.compareTo(b.date));
+    final countryTotals = _countryTotalsFromAccounts(accounts)
+      ..sort((a, b) => b.totalBeans.compareTo(a.totalBeans));
+    final dailyTotals = _dailyTotalsFromAccounts(accounts)
+      ..sort((a, b) => a.date.compareTo(b.date));
+    final summary = IncomeSummary.fromJson(_map(json['summary']))
+        .withTotalBeans(
+          accounts.fold<double>(0, (sum, account) => sum + account.totalBeans),
+        );
     return IncomeDashboardData(
       title: json['title']?.toString() ?? '历史收益看板',
       monthKey: json['monthKey']?.toString() ?? '',
       generatedAt: DateTime.tryParse(json['generatedAtIso']?.toString() ?? ''),
-      summary: IncomeSummary.fromJson(_map(json['summary'])),
+      summary: summary,
       dailyTotals: dailyTotals,
       countryTotals: countryTotals,
       accounts: accounts,
@@ -1681,6 +1683,17 @@ class IncomeSummary {
       otherBeans: _double(json['otherBeans']),
     );
   }
+
+  IncomeSummary withTotalBeans(double value) {
+    return IncomeSummary(
+      totalBeans: value,
+      billCount: billCount,
+      accountCount: accountCount,
+      giftBeans: giftBeans,
+      messageBeans: messageBeans,
+      otherBeans: otherBeans,
+    );
+  }
 }
 
 class DailyIncomeTotal {
@@ -1747,6 +1760,7 @@ class IncomeAccount {
     required this.id,
     required this.displayName,
     required this.countryIso,
+    required this.address,
     required this.totalBeans,
     required this.billCount,
     required this.days,
@@ -1757,6 +1771,7 @@ class IncomeAccount {
   final String id;
   final String displayName;
   final String countryIso;
+  final String address;
   final double totalBeans;
   final int billCount;
   final Map<String, DailyIncomeBreakdown> days;
@@ -1764,11 +1779,15 @@ class IncomeAccount {
   final bool online;
 
   factory IncomeAccount.fromJson(Map<String, dynamic> json) {
+    final address = json['address']?.toString() ?? '';
+    final displayShare = _incomeDisplayShareForAddress(address);
     final days = <String, DailyIncomeBreakdown>{};
     final rawDays = json['days'];
     if (rawDays is Map) {
       for (final entry in rawDays.entries) {
-        days[entry.key.toString()] = DailyIncomeBreakdown.fromJson(entry.value);
+        days[entry.key.toString()] = DailyIncomeBreakdown.fromJson(
+          entry.value,
+        ).scaled(displayShare);
       }
     }
     final plans = <String, IncomeStrategyPlanBreakdown>{};
@@ -1784,7 +1803,8 @@ class IncomeAccount {
       id: json['id']?.toString() ?? '',
       displayName: json['displayName']?.toString() ?? '未命名主播',
       countryIso: json['countryIso']?.toString() ?? '-',
-      totalBeans: _double(json['totalBeans']),
+      address: address,
+      totalBeans: _double(json['totalBeans']) * displayShare,
       billCount: _int(json['billCount']),
       days: days,
       plans: plans,
@@ -1845,6 +1865,59 @@ class DailyIncomeBreakdown {
     }
     return DailyIncomeBreakdown(totalBeans: _double(value), billCount: 0);
   }
+
+  DailyIncomeBreakdown scaled(double factor) {
+    if (factor == 1) return this;
+    return DailyIncomeBreakdown(
+      totalBeans: totalBeans * factor,
+      billCount: billCount,
+      plannedBeans: plannedBeans,
+    );
+  }
+}
+
+List<CountryIncomeTotal> _countryTotalsFromAccounts(
+  List<IncomeAccount> accounts,
+) {
+  final grouped = <String, List<IncomeAccount>>{};
+  for (final account in accounts) {
+    grouped.putIfAbsent(account.countryIso, () => []).add(account);
+  }
+  return [
+    for (final entry in grouped.entries)
+      CountryIncomeTotal(
+        countryIso: entry.key,
+        totalBeans: entry.value.fold<double>(
+          0,
+          (sum, account) => sum + account.totalBeans,
+        ),
+        billCount: entry.value.fold<int>(
+          0,
+          (sum, account) => sum + account.billCount,
+        ),
+        accountCount: entry.value.length,
+      ),
+  ];
+}
+
+List<DailyIncomeTotal> _dailyTotalsFromAccounts(List<IncomeAccount> accounts) {
+  final totals = <String, DailyIncomeTotal>{};
+  for (final account in accounts) {
+    for (final entry in account.days.entries) {
+      final current = totals[entry.key] ?? DailyIncomeTotal(date: entry.key);
+      totals[entry.key] = current.copyWith(
+        totalBeans: current.totalBeans + entry.value.totalBeans,
+        billCount: current.billCount + entry.value.billCount,
+      );
+    }
+    for (final entry in account.plans.entries) {
+      final current = totals[entry.key] ?? DailyIncomeTotal(date: entry.key);
+      totals[entry.key] = current.copyWith(
+        plannedBeans: current.plannedBeans + entry.value.targetBeans,
+      );
+    }
+  }
+  return totals.values.toList();
 }
 
 List<Map<String, dynamic>> _list(Object? value) {
@@ -1863,6 +1936,10 @@ Map<String, dynamic> _map(Object? value) {
 double _double(Object? value) => double.tryParse(value?.toString() ?? '') ?? 0;
 
 int _int(Object? value) => int.tryParse(value?.toString() ?? '') ?? 0;
+
+double _incomeDisplayShareForAddress(String address) {
+  return _incomeDisplaySharesByAddress[address.trim().toLowerCase()] ?? 1;
+}
 
 String _formatBeans(double value) {
   return '\$${(value / 1000).toStringAsFixed(2)}';
