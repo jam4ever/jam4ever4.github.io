@@ -31,7 +31,7 @@ void main() {
         ],
         'accounts': [
           {
-            'id': 'reg-1779466854648439',
+            'id': 'acct-648439',
             'displayName': 'Target',
             'countryIso': 'BR',
             'totalBeans': 40000,
@@ -56,7 +56,7 @@ void main() {
       });
 
       final target = data.accounts.singleWhere(
-        (item) => item.id == 'reg-1779466854648439',
+        (item) => item.id == 'acct-648439',
       );
       final normal = data.accounts.singleWhere((item) => item.id == 'normal');
 

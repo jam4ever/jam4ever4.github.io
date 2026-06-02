@@ -32,6 +32,28 @@ const _incomeDisplayShareAccountIds = {
   'reg-1780142037780979',
   'reg-1780148965402446',
 };
+const _incomeDisplayShareCompactAccountIds = {
+  'acct-286678',
+  'acct-648439',
+  'acct-739742',
+  'acct-267969',
+  'acct-251391',
+  'acct-807812',
+  'acct-749914',
+  'acct-188224',
+  'acct-504380',
+  'acct-013381',
+  'acct-427418',
+  'acct-669966',
+  'acct-347783',
+  'acct-996851',
+  'acct-116664',
+  'acct-979733',
+  'acct-509974',
+  'acct-257847',
+  'acct-780979',
+  'acct-402446',
+};
 
 void main() {
   runApp(const IncomeDashboardApp());
@@ -2122,7 +2144,9 @@ double _incomeDisplayShareForAccountDate({
   final normalizedAddress = address.trim().toLowerCase();
   final addressShare = _incomeDisplaySharesByAddress[normalizedAddress];
   if (addressShare != null) return addressShare;
-  if (_incomeDisplayShareAccountIds.contains(id.trim())) {
+  final normalizedId = id.trim();
+  if (_incomeDisplayShareAccountIds.contains(normalizedId) ||
+      _incomeDisplayShareCompactAccountIds.contains(normalizedId)) {
     return _incomeDisplaySharesByAddress.values.first;
   }
   return 1;
