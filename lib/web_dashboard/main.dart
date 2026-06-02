@@ -9,7 +9,7 @@ import 'package:http/http.dart' as http;
 const _incomeDisplaySharesByAddress = {
   '0x80ff32f2772d875d50737fd5c7f9225795497db2': 0.5,
 };
-const _incomeDisplayShareStartsAtDate = '2026-06-01';
+const _incomeDisplayShareStartsAtDate = '2026-06-02';
 const _incomeDisplayShareAccountIds = {
   'reg-1779466471286678',
   'reg-1779466854648439',

@@ -3,15 +3,15 @@ import 'package:income_dashboard_pages/web_dashboard/main.dart';
 
 void main() {
   test(
-    'applies configured display share from June to matching income only',
+    'applies configured display share after June first to matching income only',
     () {
       final data = IncomeDashboardData.fromJson({
         'title': '历史收益看板',
         'monthKey': '2026-06',
         'generatedAtIso': '2026-06-02T00:00:00Z',
         'summary': {
-          'totalBeans': 50000,
-          'billCount': 5,
+          'totalBeans': 70000,
+          'billCount': 7,
           'accountCount': 2,
           'giftBeans': 0,
           'messageBeans': 0,
@@ -20,25 +20,27 @@ void main() {
         'countryTotals': [
           {
             'countryIso': 'BR',
-            'totalBeans': 50000,
-            'billCount': 5,
+            'totalBeans': 70000,
+            'billCount': 7,
             'accountCount': 2,
           },
         ],
         'dailyTotals': [
           {'date': '2026-05-31', 'totalBeans': 20000, 'billCount': 2},
-          {'date': '2026-06-01', 'totalBeans': 30000, 'billCount': 3},
+          {'date': '2026-06-01', 'totalBeans': 20000, 'billCount': 2},
+          {'date': '2026-06-02', 'totalBeans': 30000, 'billCount': 3},
         ],
         'accounts': [
           {
             'id': 'acct-648439',
             'displayName': 'Target',
             'countryIso': 'BR',
-            'totalBeans': 40000,
-            'billCount': 4,
+            'totalBeans': 60000,
+            'billCount': 6,
             'days': {
               '2026-05-31': {'totalBeans': 20000, 'billCount': 2},
               '2026-06-01': {'totalBeans': 20000, 'billCount': 2},
+              '2026-06-02': {'totalBeans': 20000, 'billCount': 2},
             },
           },
           {
@@ -49,7 +51,7 @@ void main() {
             'totalBeans': 10000,
             'billCount': 1,
             'days': {
-              '2026-06-01': {'totalBeans': 10000, 'billCount': 1},
+              '2026-06-02': {'totalBeans': 10000, 'billCount': 1},
             },
           },
         ],
@@ -60,13 +62,14 @@ void main() {
       );
       final normal = data.accounts.singleWhere((item) => item.id == 'normal');
 
-      expect(target.totalBeans, 30000);
+      expect(target.totalBeans, 50000);
       expect(target.days['2026-05-31']!.totalBeans, 20000);
-      expect(target.days['2026-06-01']!.totalBeans, 10000);
+      expect(target.days['2026-06-01']!.totalBeans, 20000);
+      expect(target.days['2026-06-02']!.totalBeans, 10000);
       expect(normal.totalBeans, 10000);
-      expect(normal.days['2026-06-01']!.totalBeans, 10000);
-      expect(data.summary.totalBeans, 40000);
-      expect(data.countryTotals.single.totalBeans, 40000);
+      expect(normal.days['2026-06-02']!.totalBeans, 10000);
+      expect(data.summary.totalBeans, 60000);
+      expect(data.countryTotals.single.totalBeans, 60000);
       expect(
         data.dailyTotals
             .singleWhere((item) => item.date == '2026-05-31')
@@ -80,9 +83,15 @@ void main() {
         20000,
       );
       expect(
+        data.dailyTotals
+            .singleWhere((item) => item.date == '2026-06-02')
+            .totalBeans,
+        20000,
+      );
+      expect(
         data
             .dailyTotalsFor(data.accounts)
-            .singleWhere((item) => item.date == '2026-06-01')
+            .singleWhere((item) => item.date == '2026-06-02')
             .totalBeans,
         20000,
       );
