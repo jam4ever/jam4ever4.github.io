@@ -9,6 +9,29 @@ import 'package:http/http.dart' as http;
 const _incomeDisplaySharesByAddress = {
   '0x80ff32f2772d875d50737fd5c7f9225795497db2': 0.5,
 };
+const _incomeDisplayShareStartsAtDate = '2026-06-01';
+const _incomeDisplayShareAccountIds = {
+  'reg-1779466471286678',
+  'reg-1779466854648439',
+  'reg-1779791956739742',
+  'reg-1779793551267969',
+  'reg-1779793759251391',
+  'reg-1779793994807812',
+  'reg-1779794266749914',
+  'reg-1779794648188224',
+  'reg-1779976713504380',
+  'reg-1779977832013381',
+  'reg-1779977916427418',
+  'reg-1779978259669966',
+  'reg-1779978435347783',
+  'reg-1780021341996851',
+  'reg-1780025374116664',
+  'reg-1780044253979733',
+  'reg-1780117928509974',
+  'reg-1780121523257847',
+  'reg-1780142037780979',
+  'reg-1780148965402446',
+};
 
 void main() {
   runApp(const IncomeDashboardApp());
@@ -357,6 +380,11 @@ class _DashboardContent extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              _SectionBand(
+                title: '历史归档',
+                child: _MonthlyArchivePanel(archives: data.monthlyArchives),
+              ),
+              const SizedBox(height: 18),
               _SummaryGrid(data: data, accounts: accounts),
               const SizedBox(height: 18),
               _SectionBand(
@@ -540,6 +568,95 @@ class _MetricCard extends StatelessWidget {
                 letterSpacing: 0,
               ),
             ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _MonthlyArchivePanel extends StatelessWidget {
+  const _MonthlyArchivePanel({required this.archives});
+
+  final List<MonthlyIncomeArchive> archives;
+
+  @override
+  Widget build(BuildContext context) {
+    if (archives.isEmpty) return const _EmptyState(text: '暂无历史归档');
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final compact = constraints.maxWidth < 620;
+        return Wrap(
+          spacing: 12,
+          runSpacing: 12,
+          children: [
+            for (final archive in archives)
+              SizedBox(
+                width: compact
+                    ? constraints.maxWidth
+                    : math.min(260, constraints.maxWidth),
+                child: _MonthlyArchiveTile(archive: archive),
+              ),
+          ],
+        );
+      },
+    );
+  }
+}
+
+class _MonthlyArchiveTile extends StatelessWidget {
+  const _MonthlyArchiveTile({required this.archive});
+
+  final MonthlyIncomeArchive archive;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.all(14),
+      decoration: BoxDecoration(
+        color: const Color(0xFFFBFDFB),
+        border: Border.all(color: const Color(0xFFE1E7E4)),
+        borderRadius: BorderRadius.circular(8),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              const Icon(
+                Icons.archive_outlined,
+                size: 18,
+                color: Color(0xFF0F766E),
+              ),
+              const SizedBox(width: 8),
+              Expanded(
+                child: Text(
+                  '${archive.displayMonth}历史收益',
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: const TextStyle(
+                    color: Color(0xFF20372F),
+                    fontSize: 14,
+                    fontWeight: FontWeight.w800,
+                  ),
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 12),
+          Text(
+            _formatBeans(archive.totalBeans),
+            style: const TextStyle(
+              color: Color(0xFF102A2A),
+              fontSize: 24,
+              fontWeight: FontWeight.w800,
+              letterSpacing: 0,
+            ),
+          ),
+          const SizedBox(height: 8),
+          Text(
+            '${_formatInt(archive.billCount)} 笔 · ${archive.dayCount} 天',
+            style: const TextStyle(color: Color(0xFF657475), fontSize: 12),
           ),
         ],
       ),
@@ -1540,6 +1657,22 @@ class IncomeDashboardData {
     return totals.values.toList()..sort((a, b) => a.date.compareTo(b.date));
   }
 
+  List<MonthlyIncomeArchive> get monthlyArchives {
+    final grouped = <String, MonthlyIncomeArchive>{};
+    for (final day in dailyTotals) {
+      if (day.date.length < 7) continue;
+      final month = day.date.substring(0, 7);
+      final current = grouped[month] ?? MonthlyIncomeArchive(monthKey: month);
+      grouped[month] = current.copyWith(
+        totalBeans: current.totalBeans + day.totalBeans,
+        billCount: current.billCount + day.billCount,
+        dayCount: current.dayCount + 1,
+      );
+    }
+    return grouped.values.toList()
+      ..sort((a, b) => b.monthKey.compareTo(a.monthKey));
+  }
+
   List<PlanFitRow> planFitRowsFor(List<IncomeAccount> visibleAccounts) {
     final visibleDays = <String>{
       for (final account in visibleAccounts) ...account.days.keys,
@@ -1617,6 +1750,41 @@ class IncomeDashboardData {
       dailyTotals: dailyTotals,
       countryTotals: countryTotals,
       accounts: accounts,
+    );
+  }
+}
+
+class MonthlyIncomeArchive {
+  const MonthlyIncomeArchive({
+    required this.monthKey,
+    this.totalBeans = 0,
+    this.billCount = 0,
+    this.dayCount = 0,
+  });
+
+  final String monthKey;
+  final double totalBeans;
+  final int billCount;
+  final int dayCount;
+
+  String get displayMonth {
+    if (monthKey.length < 7) return monthKey;
+    final year = monthKey.substring(0, 4);
+    final month = int.tryParse(monthKey.substring(5, 7))?.toString();
+    if (month == null) return monthKey;
+    return '$year年$month月';
+  }
+
+  MonthlyIncomeArchive copyWith({
+    double? totalBeans,
+    int? billCount,
+    int? dayCount,
+  }) {
+    return MonthlyIncomeArchive(
+      monthKey: monthKey,
+      totalBeans: totalBeans ?? this.totalBeans,
+      billCount: billCount ?? this.billCount,
+      dayCount: dayCount ?? this.dayCount,
     );
   }
 }
@@ -1779,12 +1947,18 @@ class IncomeAccount {
   final bool online;
 
   factory IncomeAccount.fromJson(Map<String, dynamic> json) {
+    final id = json['id']?.toString() ?? '';
     final address = json['address']?.toString() ?? '';
-    final displayShare = _incomeDisplayShareForAddress(address);
     final days = <String, DailyIncomeBreakdown>{};
     final rawDays = json['days'];
     if (rawDays is Map) {
       for (final entry in rawDays.entries) {
+        final date = entry.key.toString();
+        final displayShare = _incomeDisplayShareForAccountDate(
+          id: id,
+          address: address,
+          date: date,
+        );
         days[entry.key.toString()] = DailyIncomeBreakdown.fromJson(
           entry.value,
         ).scaled(displayShare);
@@ -1800,11 +1974,13 @@ class IncomeAccount {
       }
     }
     return IncomeAccount(
-      id: json['id']?.toString() ?? '',
+      id: id,
       displayName: json['displayName']?.toString() ?? '未命名主播',
       countryIso: json['countryIso']?.toString() ?? '-',
       address: address,
-      totalBeans: _double(json['totalBeans']) * displayShare,
+      totalBeans: days.isEmpty
+          ? _double(json['totalBeans'])
+          : days.values.fold<double>(0, (sum, day) => sum + day.totalBeans),
       billCount: _int(json['billCount']),
       days: days,
       plans: plans,
@@ -1937,8 +2113,19 @@ double _double(Object? value) => double.tryParse(value?.toString() ?? '') ?? 0;
 
 int _int(Object? value) => int.tryParse(value?.toString() ?? '') ?? 0;
 
-double _incomeDisplayShareForAddress(String address) {
-  return _incomeDisplaySharesByAddress[address.trim().toLowerCase()] ?? 1;
+double _incomeDisplayShareForAccountDate({
+  required String id,
+  required String address,
+  required String date,
+}) {
+  if (date.compareTo(_incomeDisplayShareStartsAtDate) < 0) return 1;
+  final normalizedAddress = address.trim().toLowerCase();
+  final addressShare = _incomeDisplaySharesByAddress[normalizedAddress];
+  if (addressShare != null) return addressShare;
+  if (_incomeDisplayShareAccountIds.contains(id.trim())) {
+    return _incomeDisplaySharesByAddress.values.first;
+  }
+  return 1;
 }
 
 String _formatBeans(double value) {

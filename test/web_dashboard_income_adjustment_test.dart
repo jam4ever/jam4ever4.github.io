@@ -2,66 +2,130 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:income_dashboard_pages/web_dashboard/main.dart';
 
 void main() {
-  test('applies configured display share to matching address income only', () {
+  test(
+    'applies configured display share from June to matching income only',
+    () {
+      final data = IncomeDashboardData.fromJson({
+        'title': '历史收益看板',
+        'monthKey': '2026-06',
+        'generatedAtIso': '2026-06-02T00:00:00Z',
+        'summary': {
+          'totalBeans': 50000,
+          'billCount': 5,
+          'accountCount': 2,
+          'giftBeans': 0,
+          'messageBeans': 0,
+          'otherBeans': 0,
+        },
+        'countryTotals': [
+          {
+            'countryIso': 'BR',
+            'totalBeans': 50000,
+            'billCount': 5,
+            'accountCount': 2,
+          },
+        ],
+        'dailyTotals': [
+          {'date': '2026-05-31', 'totalBeans': 20000, 'billCount': 2},
+          {'date': '2026-06-01', 'totalBeans': 30000, 'billCount': 3},
+        ],
+        'accounts': [
+          {
+            'id': 'reg-1779466854648439',
+            'displayName': 'Target',
+            'countryIso': 'BR',
+            'totalBeans': 40000,
+            'billCount': 4,
+            'days': {
+              '2026-05-31': {'totalBeans': 20000, 'billCount': 2},
+              '2026-06-01': {'totalBeans': 20000, 'billCount': 2},
+            },
+          },
+          {
+            'id': 'normal',
+            'displayName': 'Normal',
+            'countryIso': 'BR',
+            'address': 'another-address',
+            'totalBeans': 10000,
+            'billCount': 1,
+            'days': {
+              '2026-06-01': {'totalBeans': 10000, 'billCount': 1},
+            },
+          },
+        ],
+      });
+
+      final target = data.accounts.singleWhere(
+        (item) => item.id == 'reg-1779466854648439',
+      );
+      final normal = data.accounts.singleWhere((item) => item.id == 'normal');
+
+      expect(target.totalBeans, 30000);
+      expect(target.days['2026-05-31']!.totalBeans, 20000);
+      expect(target.days['2026-06-01']!.totalBeans, 10000);
+      expect(normal.totalBeans, 10000);
+      expect(normal.days['2026-06-01']!.totalBeans, 10000);
+      expect(data.summary.totalBeans, 40000);
+      expect(data.countryTotals.single.totalBeans, 40000);
+      expect(
+        data.dailyTotals
+            .singleWhere((item) => item.date == '2026-05-31')
+            .totalBeans,
+        20000,
+      );
+      expect(
+        data.dailyTotals
+            .singleWhere((item) => item.date == '2026-06-01')
+            .totalBeans,
+        20000,
+      );
+      expect(
+        data
+            .dailyTotalsFor(data.accounts)
+            .singleWhere((item) => item.date == '2026-06-01')
+            .totalBeans,
+        20000,
+      );
+    },
+  );
+
+  test('groups daily income into monthly history archives', () {
     final data = IncomeDashboardData.fromJson({
       'title': '历史收益看板',
       'monthKey': '2026-06',
       'generatedAtIso': '2026-06-02T00:00:00Z',
       'summary': {
-        'totalBeans': 30000,
-        'billCount': 3,
-        'accountCount': 2,
+        'totalBeans': 45000,
+        'billCount': 9,
+        'accountCount': 1,
         'giftBeans': 0,
         'messageBeans': 0,
         'otherBeans': 0,
       },
-      'countryTotals': [
-        {
-          'countryIso': 'BR',
-          'totalBeans': 30000,
-          'billCount': 3,
-          'accountCount': 2,
-        },
-      ],
-      'dailyTotals': [
-        {'date': '2026-06-01', 'totalBeans': 30000, 'billCount': 3},
-      ],
       'accounts': [
-        {
-          'id': 'target',
-          'displayName': 'Target',
-          'countryIso': 'BR',
-          'address': '0x80ff32f2772d875d50737fd5c7f9225795497db2',
-          'totalBeans': 20000,
-          'billCount': 2,
-          'days': {
-            '2026-06-01': {'totalBeans': 20000, 'billCount': 2},
-          },
-        },
         {
           'id': 'normal',
           'displayName': 'Normal',
           'countryIso': 'BR',
           'address': 'another-address',
-          'totalBeans': 10000,
-          'billCount': 1,
+          'totalBeans': 45000,
+          'billCount': 9,
           'days': {
-            '2026-06-01': {'totalBeans': 10000, 'billCount': 1},
+            '2026-05-01': {'totalBeans': 10000, 'billCount': 2},
+            '2026-05-02': {'totalBeans': 15000, 'billCount': 3},
+            '2026-06-01': {'totalBeans': 20000, 'billCount': 4},
           },
         },
       ],
     });
 
-    final target = data.accounts.singleWhere((item) => item.id == 'target');
-    final normal = data.accounts.singleWhere((item) => item.id == 'normal');
+    final archives = data.monthlyArchives;
 
-    expect(target.totalBeans, 10000);
-    expect(target.days['2026-06-01']!.totalBeans, 10000);
-    expect(normal.totalBeans, 10000);
-    expect(normal.days['2026-06-01']!.totalBeans, 10000);
-    expect(data.summary.totalBeans, 20000);
-    expect(data.countryTotals.single.totalBeans, 20000);
-    expect(data.dailyTotals.single.totalBeans, 20000);
-    expect(data.dailyTotalsFor(data.accounts).single.totalBeans, 20000);
+    expect(archives.map((item) => item.monthKey), ['2026-06', '2026-05']);
+    expect(archives.first.totalBeans, 20000);
+    expect(archives.first.billCount, 4);
+    expect(archives.last.totalBeans, 25000);
+    expect(archives.last.billCount, 5);
+    expect(archives.last.dayCount, 2);
   });
 }
